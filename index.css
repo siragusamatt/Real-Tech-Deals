@@ -1,0 +1,70 @@
+.panel-title {
+	text-align: center;
+	font-size: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.greeting {
+	text-align: center;
+	font-size: 40px;
+	margin-top: 0px;
+}
+
+.panel-body {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.deal {
+	border: 2px solid blue;
+	padding: 10px;
+	background-image: url("http://everything.typepad.com/blog/images/2008/03/28/bluegrad.png");
+	box-shadow: 5px 5px 5px grey;
+}
+
+.name {
+	font-size: 35px;
+	color: rgb(0, 0, 204);
+	text-shadow: 1px 1px;
+	margin: auto;
+	text-align: center;
+	
+}
+
+.source {
+	font-size: 25px;
+}
+
+.salePrice {
+	float: left;
+	color: green;
+	font-size:35px;
+	
+}
+
+.originalPrice {
+	color: red;
+	float:right;
+	margin-right: 0px;
+	font-size: 35px;
+}
+
+.price1 {
+	font-size: 70px;
+	
+}
+
+.price2 {
+	font-size: 70px;
+	float:right;
+	margin-right: 0px;
+}
+
+button {
+	width: 10%;
+	height: 40px;
+	margin-left: 45%;
+	margin-right: 45%;
+}

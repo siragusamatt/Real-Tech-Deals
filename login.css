@@ -1,0 +1,54 @@
+form {
+	margin:auto;
+	padding-top: 5px;
+	padding-bottom:5px;
+	text-align: center;
+	font-size: 20px;
+	background-color: rgb(236, 245, 249);
+	width: 55%;
+	margin-top: 25px;
+	border-radius:25px;
+	border-style: solid;
+	border-color:grey;
+	border-width: 2px;
+}
+
+legend {
+	margin-left:38%;
+	font-size: 45px;
+	margin-bottom: 0px;
+}
+
+label {
+	float:left;
+	margin-left: 85px;
+}
+
+input {
+	height: 25px;
+	width: 75%;
+	margin-top:5px;
+	margin-bottom:5px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius:5px;
+	font-size:15px;
+}
+
+input:focus {
+	background-color:rgb(235, 250, 235);
+}
+
+p {
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+button {
+	margin-top: 15px;
+	margin-bottom: 10px;
+	height: 35px;
+	width: 75px;
+}

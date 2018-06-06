@@ -1,0 +1,93 @@
+body {
+	font-family: 'Lucida Bright', Georgia, serif;
+
+	background: rgba(254,254,254,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 20%, rgba(219,219,219,1) 97%, rgba(209,209,209,1) 99%, rgba(226,226,226,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(254,254,254,1)), color-stop(20%, rgba(254,254,254,1)), color-stop(97%, rgba(219,219,219,1)), color-stop(99%, rgba(209,209,209,1)), color-stop(100%, rgba(226,226,226,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 20%, rgba(219,219,219,1) 97%, rgba(209,209,209,1) 99%, rgba(226,226,226,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 20%, rgba(219,219,219,1) 97%, rgba(209,209,209,1) 99%, rgba(226,226,226,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 20%, rgba(219,219,219,1) 97%, rgba(209,209,209,1) 99%, rgba(226,226,226,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 20%, rgba(219,219,219,1) 97%, rgba(209,209,209,1) 99%, rgba(226,226,226,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e2e2e2', GradientType=1 );
+	margin:0;
+	padding: 0;
+}
+
+
+h1 {
+	text-align: center;
+	margin-bottom: 0;
+	
+}
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+li a {
+	display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 18px;
+}
+
+li a:hover {
+    background-color: rgb(115, 115, 115);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  float: right;
+  background: #eee;
+  border-bottom: 1px solid #fff;
+  border-radius: 3px;    
+}
+
+nav li {
+  float: left;          
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	float: left;
+}
+
+.dropdown-content a {
+    
+	background-color: #333;
+	color: white;
+	border-top: 1px solid #bbb;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+

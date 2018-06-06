@@ -1,0 +1,33 @@
+.panel-body {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: rgb(230, 242, 255);
+	padding: 1px;
+	border: 3px solid black;
+}
+
+h3 {
+	text-indent: 10%;
+	font-size: 32px;
+	margin-bottom: 5px;
+}
+
+.deal {
+	font-size: 30px;
+	border-bottom: 2px solid black;
+}
+
+button {
+	float: right;
+	height: 35px;
+	margin-left: 4px;
+}
+
+.delete {
+	text-align: center;
+	margin-top: 60px;
+	text-decoration: none;
+	color: blue;
+	font-style: italic;
+}

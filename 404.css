@@ -1,0 +1,30 @@
+body {
+	background-image: url(http://entropymag.org/wp-content/uploads/2014/10/outer-space-wallpaper-pictures.jpg);
+	background-color: #cccccc;
+}
+
+h1{
+	color: white;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 550%;
+	text-align: center;
+}
+
+p{
+	color: white;
+	font-family: Impact, Charcoal, sans-serif;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 350%;
+	letter-spacing: 0.05em;
+	margin-bottom: 0px;
+}
+
+h2{
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0, 204, 255);
+}
